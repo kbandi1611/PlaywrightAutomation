@@ -1,0 +1,373 @@
+1. What is Automation Testing?
+Automated Testing is a type of software testing that automates the process of validating the functionality of the software and ensures that the software meets its requirements before being released for production.
+Automated testing is important for continuous testing, continuous integration, and continuous delivery software development practices.
+It needs manual effort when creating initial scripts, and further process is performed automatically to compare the results of actual testing with expected results.
+
+2. When will you avoid Automation Testing?
+Functionality changes regularly: The software or functionality under test changes regularly thus the automated tests need to be updated frequently. Hence, the test can soon become obsolete and cease to be useful.
+Inefficient for UI bugs: Automated tests unless not programmed to check for UI flaws will not find any.
+Not appropriate for exploratory testing: Exploratory testing is also not appropriate for automated testing.
+Tests that cannot be automated 100%: Tests that cannot be automated 100% should not be automated at all unless it saves considerable time in automating them.
+Tests requiring random testing: Tests that require random testing based on domain expertise should not be automated.
+
+3. What is a Test Environment?
+The test environment is a setup of hardware and software for the testing teams to execute test cases.
+The test environment also known as the test bed is configured as per the need of the Application Under Test.
+The test environment setup includes system and applications, test data, database server, browser, network, etc.
+
+4. What is Browser Automation?
+Browser automation is the process of testing software in the browser using automated tools to reduce testing time, effort and deliver faster results efficiently.
+
+5. Explain different types of Automation Tests.
+Functional Testing: Functional testing focuses on assessing the software against the set of functional requirements and testing the main functions of the system.
+Unit Testing: Unit testing involves testing the individual components of the system in isolation to verify that they are working as required.
+Integration Testing: Integration testing involves testing all the various units of the application in unity to verify whether the system as a whole complies with the functional requirements set or not.
+Smoke Testing: Smoke testing also known as confidence testing involves assessing the stability and viability of the deployed build of the software.
+Non-functional Testing: Non-functional testing involves testing all the non-functional requirements of an application.
+Performance Testing: Performance testing involves testing the software’s speed, responsiveness, and stability under workload.
+Regression Testing: Regression testing involves rerunning of functional and non-functional tests to see if the software is performing the same way as before after some changes in the code have been made.
+Keyword-driven Testing: Keyword-driven testing involves identifying the keywords and connecting them with specific actions. Every time the keyword is used, related action will be automatically done.
+Data-driven Testing: Data-driven testing involves using external data that is stored in the spreadsheet format or tables to extend automated tests.
+
+6. List factors that define the success of Automation Testing.
+Some of the factors that are used to check the effectiveness of automation testing are:
+
+Reusability
+Time-saving
+Quality of the software
+Maintenance
+Installment costs
+Test coverage
+The number of bugs found.
+
+7. Who should be responsible for Test Automation?
+Automation Test Engineer also known as Test Automation Developer is an Automation Tester responsible for the design, development, and testing of programs that run automated tests of hardware and software throughout the development cycle.
+
+8. What is a Test Automation Platform?
+Test Automation Platform is a system that automates the entire automation testing process by utilizing the programs and scripts written by the developers or testers. Thus, making the automated software testing simple.
+
+9. Is it possible to achieve 100% Automation?
+It is almost impossible to achieve 100% automation in any testing process due to the presence of some real-life scenarios like captcha matching that require human intervention. Manual testing is preferred in some cases and it is not recommended to use 100% automation in any case.
+
+
+10. What is the average number of test cases you have automated per day?
+The average number of test cases depends upon the length and complexity of the test scenario. In general, a QA tester can automate 2-4 test scenarios daily when the complexity is limited, and sometimes only 1-2 test scenarios can be automated when the complexity is high.
+
+11. What are the Benefits of Automation Testing?
+Here are some benefits of Automation testing:
+
+Simplifies Test Case Execution: Automation testing can be left virtually unattended and thus it gives an opportunity to monitor the results at the end of the process.
+Improves Reliability of Tests: Automation testing ensures that there is equal focus on all the areas of the testing, thus ensuring the best quality end product.
+Increases amount of test coverage: Using automation testing, more test cases can be created and executed for the application under test. This allows for the testing of more complex applications and more features can be tested.
+Minimizing Human Interaction: In automation testing, everything is automated from test case creation to execution thus there are no changes for human error due to neglect.
+Saves Time and Money: The initial investment for automation testing is on the higher side but it is cost-efficient and time-efficient in the long run. This is due to the reduction in the amount of time required for test case creation and execution which contributes to the high quality of work.
+Earlier detection of defects: Automation testing documents the defects, thus making it easier for the development team to fix the defect and give a faster output. The earlier defect is identified, the more easier and cost-efficient it is to fix the defects.
+
+12. What are the Limitations of Automation Testing?
+High initial cost: Automation testing in the initial phases requires a lot of effort in selecting the tool and designing customized software.
+100% test automation is not possible: Generally, the effort is to automate all the test cases but in practical real situations not all test cases can be automated there are some test cases that require human intervention for careful observation.
+Not possible to automate all testing types: It is not possible to automate tests that verify the user-friendliness of the system. Similarly, if we talk about the graphics or sound files, even their testing cannot be automated as automated tests typically use textual descriptions to verify the output.
+Programming knowledge is required: Every automation testing tool uses any one of the programming languages to write test scripts. Thus, it is mandatory to have programming knowledge for automation testing.
+False positives and negatives: Automation tests may sometimes fail and reflect that there is some issue in the system but actually there is no issue present and in some cases, it may generate false negatives if tests are designed to verify that some functionality exists and not to verify that it works as expected.
+
+13. What are the prerequisites of Automation Testing?
+Some of the prerequisites of automation testing are:
+
+A stable build.
+Functionalities to be tested.
+Test cases for automated testing.
+
+14. What is TestNG in Selenium?
+TestNG is a powerful testing framework that provides features like flexible test configurations, test cases that can be grouped, support for data-driven testing, inbuilt reporting, etc.
+
+It supports parameterization.
+The annotations are used to create test cases easily.
+It supports parallel execution.
+It also supports log generation.
+
+15. Why use Automation Frameworks?
+The automation framework offers the benefit of reusing the code in various scenarios and it also helps the team to write down the test script in a standard format. With the help of automation testing frameworks, it is possible to achieve continuous testing of coding and delivery.
+
+16. What is an Automated Test Script?
+Automated test scripts are scripts where the script programmatically performs the setup and validation on its own. Automated test scripts help to save time, reduce errors, and serve as documentation for the software.
+
+Automation Testing Interview Questions for Intermediate
+Here in this section, we have filtered automated interview questions for intermediate candidates. Go through this section to get a hand on all the intermediate questions for an automated software tester.
+
+17. Mention different parts of the Test Automation Framework.
+Six major components of the test automation framework are:
+
+System to be tested: The subsystems of the system to be tested must be stable before the start of the automation test project.
+Testing platform: The testing platform on which the system will be tested must be in place to carry out the test automation project.
+Test case library: The test case library is useful to compile the libraries of reusable test steps of basic utilities that are to be used as the building blocks of automated test scripts.
+Automated testing practice: The procedure describing how to automate test cases using test tools and test libraries must be documented.
+Testing tools: Different tools like test automation tools, traffic generation tools, and traffic monitoring tools, support tools are required for the development of test scripts.
+Test administrator: The test administrator manages the test case libraries, test platforms, and test tools. It is also responsible for maintaining an inventory of templates, providing tutorials, etc.
+
+18. Should you automate all testing?
+Automated testing no doubt saves a lot of time and effort but it is impractical to automate all forms of testing. User interface testing, accessibility testing, and usability testing are some forms of testing that cannot be automated and can only be carried out by human testers.
+
+19. What is Cross-browser Testing?
+Browser compatibility or cross-browser testing is a process of evaluating whether the functionality of a web application remains consistent when the end-user visits your web application from a different browser.
+
+It is also used to validate browser compatibility for desktop and web applications.
+Some of the cross-browser testing tools are Sauce Labs, Browsershots, Browsera, Selenium Box, etc.
+
+20. List some best practices in Test Automation.
+Create an Automation Test Plan: Develop a plan outlining the strategy for identification and an approach for automation.
+Identify test cases that can be automated: Identify the test cases that can be automated as not all test cases can be automated and should not be automated.
+Test early and frequently: Starting testing early and running tests, again and again, will help to find more defects.
+Create test data: Test data should be created carefully that exercises most parts of the application including boundary conditions and edge cases.
+Select appropriate tools and frameworks: It is best to choose an automated testing tool that not only supports your application’s technology but should also be updated to support the latest technologies.
+
+21. What is Test Automation Pyramid?
+Testing Pyramid also known as Test Automation Pyramid describes the test types that the development and QA team should include in an automated test suite.
+
+The purpose of the test automation pyramid is to provide rapid feedback to ensure that code changes do not impact the existing functionality.
+It minimizes the time required for the developers to determine if an update was introduced.
+
+22. What are the risks associated with Automated Testing?
+Unrealistic expectation: Automation testing tools do not make a difficult test problem into an easy one so unrealistic expectation from the tool is the first and foremost risk.
+Vendor issues: A free tool is made licensed over the course of time due to the inability to update the automation tools with changes in the software testing platform.
+Maintainability of test scripts: In automation testing, it is important to carefully design maintainable, robust, and modular frameworks so that the test scripts and data could be reused and reduce the risk of lack of maintainability of scripts.
+Underestimating the need for manual testing: As an automation test engineer it is important to understand that not all tests can be automated. With repetitive automated tests, there might be an issue called “Pesticide Paradox” where we do not find any new issues.
+
+23. When will you not Automate Testing?
+Tests that require user experience: Tests that require a user to respond as to how easy the app is to use cannot be automated.
+Tests that will be executed one time: Tests that will be run only one time should not be automated as it will unnecessarily increase the project budget.
+Tests that cannot be automated 100%: Tests that cannot be automated 100% should not be automated at all.
+Tests that don’t focus on risk areas: Tests that don’t focus on risk areas of the application should not be automated at all.
+
+24. How can you speed up an Auto Test Suite?
+Reduce tests through UI: Tests through UI are generally slower so it is better to convert UI tests to API and unit tests wherever possible.
+Parallelize your tests: Overall time needed to run the tests can be reduced by running tests in parallel.
+Use Cloud-based testing solution: With the cloud-based testing solution tests can be executed on real devices in the cloud. A cloud-based approach can be faster and more reliable.
+Invest in Continuous Integration: Continuous integration helps to reduce the time it takes to run your test suite by automating the build, testing, and deployment process.
+Focus on critical functionality: It is a better option to focus on automating the most critical functionality instead of automating every single feature of your application.
+
+25. Is automated testing making manual testing obsolete?
+Automated testing is not making Manual testing obsolete. Although automated tests help to avoid regression issues there are some types of testing like usability testing, and accessibility testing that needs to be performed by a human tester.
+
+Automation testing helps to test repeatable test cases which can be reproduced deterministically.
+It helps to reduce the amount of manual testing required but it does not eliminate it.
+
+26. What is UI Testing?
+UI Testing is User Interface Testing a type of software testing that ensures the UI of a website is user-friendly and meets the expected customer requirements.
+
+It evaluates the design of elements such as layout, colors, fonts, font sizes, etc.
+It allows testing of the functionality from the user’s perspective.
+
+27. What is Protractor?
+Protractor is an Automation testing framework that is written using NodeJS and offers combined end-to-end testing for web applications that are built using AngularJS. It supports both Angular and Non-Angular applications.
+
+The purpose is not only to test AngularJS applications but also to write automated regression tests for normal web applications.
+It automatically executes the next step in tests the moment the webpage finishes the pending tasks.
+
+28. Is Documentation necessary in Automation Testing?
+Documentation plays a vital role in Test Automation. Having well-written documentation explains not only what, but also why it is important for the team members when they try to understand the tests. It is important to document all the procedures and methods, to ensure test repeatability.
+
+29. What are the Pros of Selenium?
+Open-source: Selenium is freeware and a portable tool that can be downloaded freely and community-based support is freely available.
+Simultaneous execution of test cases: Selenium supports simultaneous execution of test cases in multiple environments and browsers.
+Supports multiple operating systems: Selenium can operate and support multiple operating systems like Windows, Mac, Linux, and Unix. The test suite can be created across any platform and then can be executed on another one.
+Supports tools to diagnose failures: Selenium provides tools that are needed to diagnose the failures and rebuild a similar environment for new test execution.
+Saves time: Selenium Grid saves time as it uses a Hub-Node design.
+Captures screenshots: Selenium captures the screenshot of browsers at different stages of test case execution.
+
+30. What are the Limitations of Selenium?
+No support for desktop applications: Selenium does not support testing for desktop applications.
+Expertise: Selenium requires the expertise of your team — and resources to manage.
+Maintenance and Scalability: Selenium is a maintenance-heavy framework — and is difficult to scale as one grows.
+Open Source Forums: Since Selenium is open-source software, one has to rely on community forums to get your technical issues resolved.
+No support for REST and SOAP Platforms: We can’t perform automation tests on web services like SOAP or REST using Selenium.
+No Reporting capability: Selenium does not have any inbuilt reporting capability, one has to rely on plug-ins like JUnit and TestNG for test reports.
+
+31. What are the features of a Good Automation Framework?
+Ease of use: The testing framework should be easy to use, starting with the installation and ending with user-friendly test reports.
+Reliability: The testing framework should be reliable and should be tested with the aim of preventing it from crashing.
+Reporting: Reporting is one of the important features of the testing framework. Test reports that are unreadable, and vague, make even the best test cases useless.
+Integration: The testing framework should be easy to integrate with other tools.
+Portability: The testing framework must be usable on different OS and different environments.
+
+32. Is Automation Testing a Black box testing or White box Testing technique?
+Automation testing is mostly black-box testing as only the steps that a manual tester performs for software without knowledge of the code of the application are programmed.
+
+33. What is Continuous Integration?
+Continuous Integration is a practice in which the team of developers intermittently merges the code changes into the shared repository. In this developers are integrating multiple times throughout the day and committing to changes about once a day or a few times a week.
+
+34. What is Continuous Delivery?
+Continuous delivery lets automated testing developers to test beyond unit tests and helps them to verify the application updates across multiple dimensions before deploying to customers. With this every code change is built, tested, and then pushed to non-production testing.
+
+35. What is the scripting standard followed while performing Automation Testing?
+Uniformity in naming convention.
+Adequate indentation.
+Robust error handling.
+Ability to recover easily.
+Commenting on functionality whenever and wherever necessary.
+
+36. Is it possible to conduct Automation testing without a framework?
+Automation testing can be done without a testing framework but it is not recommended. The automation testing framework guides testers on how to execute the scripts, how to report the results, where to store them, etc. In short, the testing framework is like a blueprint.
+
+37. Why do we need Cross-Browser testing?
+Cross-browser testing helps to ensure that the application or the website delivers an optimal user experience independent of the browser that is used to access it. It helps to create a positive user experience on the website, no matter which browser or device the user uses to connect.
+
+
+38. List the programming languages supported by Selenium Webdriver.
+Selenium Webdriver supports programming languages:
+
+Java
+Python
+Ruby
+C#
+JavaScript
+Perl
+PHP
+Automation Testing Interview Questions for Experienced
+Here in this section, you will find all experienced-level questions for automated testing interview questions.
+
+39. List the differences between Manual Testing and Automation Testing.
+Parameters
+
+Manual Testing
+
+Automated Testing
+
+Definition
+
+In manual testing, the tester executes test cases manually.
+
+In automated testing, the tester uses tools and scripts to automate the process of testing.
+
+Working
+
+Manual testing works by requiring analysts and QA engineers to be involved in everything right from test case creation to actual test execution.
+
+Automated testing involves testers writing test scripts that automate test case execution.
+
+Strength
+
+Manual testing is better at handling complex scenarios.
+
+Automated testing is much faster and covers many permutations.
+
+Weakness
+
+Manual testing is slow and tedious.
+
+Automated testing requires coding and test maintenance.
+
+Test coverage
+
+It is difficult to ensure sufficient test coverage.
+
+It is easy to ensure sufficient test coverage.
+
+40. List the main steps in the lifecycle of Automation Testing.
+Decide the scope of test automation: This is the first stage of automation testing that involves deciding which modules can be mechanized and which not, which test cases can be automated, and how to automate them.
+Choose the appropriate automation tool: Selecting the appropriate automation testing tool is a basic stage for an automation testing lifecycle. Some of the popular automation testing tools are Selenium, Appium, Cucumber, SoapUI, etc.
+Plan, Design, and Strategy: During this phase, testers make an automation procedure and plan.
+Setup the test environment: This phase involves setting up the test environment that involves setting up a machine where test scripts will be executed.
+Test script execution: To execute the test scripts, the automation testing team must ensure that all the scripts are properly running. For this, they need to take notice of the processes like the test scripts should be created based on actual requirements, a common function method must be created to be used throughout the test process, etc.
+Examine and Maintenance approach: It is the last phase of automation testing in which the testing team examines to determine whether the specific segments that experience an overall number of issue reports require an extra test attempt or not. The maintenance phase is used to validate whether the new functionality added to the product is working fine or not.
+
+41. Some popular tools you would use for Automation Testing.
+Selenium: Selenium is an open-source framework for web testing automation. It is a suite of software consisting of Selenium WebDriver, Selenium Grid, and Selenium IDE.
+Katalon: Katalon is a scalable automation testing tool for web API, desktop, and mobile applications. It has flexible methods for test design recording and playback, manual, and scripting mode.
+Appium: Appium is an open-source tool that is used for mobile applications. It allows users to write automated UI tests for native, web-based, and hybrid mobile applications on both Android and iOS.
+TestComplete: TestComplete can automate functional UI testing for desktop, mobile, and web applications. It can handle and identify dynamic UI elements in most available technologies. It supports programming languages like JavaScript, Python, JScript, C++, etc.
+Cypress: Cypress is an automation tool for end-to-end testing that can directly operate with the browser in the same run-loop as your application. It supports JavaScript programming language and integrations with popular CI/ CD tools.
+
+42. List the criteria to select an automation tool.
+Project Requirements: Automation tool selection should be based on the project requirements. The type of application that needs to be tested, platforms that need to be tested, and language application is built-in.
+Team Skills: When selecting a tool for automation it is important to decide whether the project requires a codeless test automation tool or an automation tool that requires coding.
+Budget: This is a very important criterion for selecting a testing tool. It is important to consider the cost of human resources, time spent on the learning tool, time being spent on automation, and the cost of infrastructure.
+Reusability: It is important to look for tools that allow the reuse of the already created test steps to avoid writing the same code multiple times in multiple test cases and avoid duplication of efforts.
+Support for Tools for Integration: Select a tool that integrates with CI/ CD tools that will be used in the project.
+
+43. What is Modular Testing Framework?
+The modular testing framework involves the tester dividing the application into modules and creating test scripts for each module. These test scripts are combined to build larger tests in a hierarchical fashion.
+
+It involves less effort for creating test cases as test scripts for individual modules can be reused.
+In case of changes to the application, only the module and its associated test scripts need to be fixed.
+
+44. List the frameworks used in Automation Testing.
+Below are some of the frameworks that are used in Automation testing:
+
+Data-Driven Testing Framework: In a data-driven testing framework, testers can store and pass input/ output parameters to test scripts from an external data source.
+Keyword-Driven Testing Framework: It is an extension of the data-driven testing framework that extracts test data from an external source and safely maintains the set of codes. These codes also known as keywords can be used to alter the test script to conclude possible outcomes from the test framework.
+Hybrid Testing Framework: Hybrid testing framework combines the data-driven testing framework and keyword-driven testing framework allowing more scope for increased productivity and better success.
+Modular Testing Framework: This framework requires the existence of various modules to run the framework and separate test scripts need to be created for every module and collaborate with them to create test cases for the application.
+Linear Scripting Framework: Linear scripting is carried out manually and it takes up ample time to execute. It is also known as Record and Playback framework. It also requires time for maintenance.
+Behavior-Driven Framework: Behavior-driven framework that allows the tester to create test cases in simple English. The test scenarios are easy to understand by everyone on the team.
+
+45. What is Data-Driven Testing?
+Data-driven testing is a software testing approach in which the test data is stored in the tables and it allows testers to input a single test script that can execute tests for all test data from a table and expect test output in the same table.
+
+46. What is Keyword-Driven Testing Framework?
+Keyword-driven testing framework divides test cases as test steps, objects of test steps, actions on test steps, and data for test objects.
+
+It uses a table of keywords to represent the actions and inputs for each test case.
+In this, the set of keywords is identified and then actions are associated related to these keywords.
+
+47. What is Hybrid Testing Framework?
+The hybrid testing framework is a combination of a data-driven testing framework and a keyword-driven testing framework.
+
+It is mostly used by manual testers who don’t have knowledge of programming languages.
+They can simply have a look at the keywords, test data, and object repository and start creating test cases without having to code anything in the framework.
+
+48. List some features of the Cucumber framework.
+The cucumber tool supports Behavior-driven development (BDD).
+It offers to write tests in simple English that can be understood by anyone.
+It uses Ruby programming language.
+It focuses on end-user experience.
+
+49. What is Robot Framework?
+Robot framework is an open-source test automation framework that is used for acceptance testing and acceptance-test-driven development. It follows different frameworks like data-driven, keyword-driven, and behaviour-driven development for writing test cases.
+
+It provides support for external libraries and open-source tools that can be used for automation.
+In this test cases are written using keyword style in a tabular format.
+The most popular library used in the Robot framework is Selenium Library.
+
+50. What are the different components of Selenium?
+Different components of Selenium are:
+
+Selenium Grid: Selenium Grid is used for parallel testing as it enables the execution of varied tests in multiple machines simultaneously.
+Selenium IDE: Selenium IDE is available as Firefox and Chrome plugins. The recording, debugging, and editing of the functional tests can be done in Selenium IDE.
+Selenium RC: It is the server implemented in Java that can accept commands for browsers using HTTP.
+Selenium Webdriver: Selenium Webdriver receives commands and passes them to the browser. It supports browsers like Chrome, Firefox, Safari, IE, etc.
+Conclusion
+In conclusion, through this comprehensive collection of Automation Testing interview questions listed above, you might have gain valuable insights into the key concepts of the Automation Testing. However Automation Testing is only a single component of good software testing strategy.
+
+It is an important activity that ensures the developer confidence to release the software, and always remember that these interview questions not only provides you the text book answers, but also the real time questions asked in the interview.
+
+Automation Testing Interview Questions – FAQs
+Q1. What is an example of automation testing?
+Examples of automated testing include unit testing, integration testing, functional testing, regression testing, and acceptance testing.
+
+Q2. What are basic skills for automation testing?
+Test automation engineers need to have solid programming skills to create, maintain, and execute automated test scripts using various tools and frameworks. They should be familiar with the languages and technologies used in the applications under test, such as Java, Python, C#, Selenium, Appium, or Cucumber.
+
+Q3. What IS QA in Automation Testing?
+QA Automation aka Automation Testing refers to developing automation scripts to run tests on the software using automation tools. It uses automation scripts that can be executed repeatedly.
+
+Q4. What is an automation tool?
+Automation software are applications that minimize the need for human input and can be used in a variety of ways in almost any industry. At the most basic, automation software is designed to turn repeatable, routine tasks into automated actions.
+
+Q5. What is first step to learn automation testing?
+Set a realistic goal.
+Do not aim for 100% test automation
+Know what not to automate.
+Explore new areas of the application with automation
+
+Q6. When is a good time to automate a test?
+A good time to automate a test is when you are using repetitive tests. If you are running the same test again and again without changing it, the likelihood is it would be much more time efficient to automate.
+
+Q7. What are the types of automation testing?
+Types of automation testing are:-
+
+Unit Testing
+Integration Testing
+Regression Testing
+Functional Testing
+API Testing
+Smoke Testing

@@ -1,0 +1,272 @@
+1. Tell me about yourself:
+My name is Karthik. I have graduated from my bachelors in the year 2019 from Electronics and Communications background. I have got selected in campus placements in the college itself for Capgemini. Then I got trained on different technologies like C, DS, OS and Networking for 6 months. After that I got assigned with project which is associated with google, there I have worked for Wi-Fi Testing on Google Access Points in Stress and Stability team for over 1 year and then I have switched to Application Testing which is also a part of Google project, there I have worked for more than 2 years and then I switched to my second company that is Visteon. In Visteon I have worked for Harley Davidson Project for 6 months, here I have tested the Wifi functionality of HMI displays which are using in Harley Davidson bikes. After that I switched to OSI Digital and here I have worked for one year with Postman API testing, SQL database testing and I have automated the APIs using Python language and Selenium as a framework for GET, PUT, POST and DELETE methods used to interact with resources on a web server. And I have used SQL server for monitoring the data of the temperature controlled sensors.
+
+
+2-- tell me about your day to day activities 
+On a typical day, my activities are a mix of test planning, script development, test execution, and collaboration with my team. Here's how my day usually goes:
+
+Morning Stand-up Meeting: I start my day by attending the daily stand-up meeting with my team. We discuss our progress, any blockers, and our plans for the day. This helps in keeping everyone on the same page and identifying any immediate issues that need attention.
+
+Reviewing Test Cases and Scripts: After the stand-up, I review the test cases and scripts that were executed overnight. I analyze the results, identify any failures, and log bugs if needed. I ensure that the test cases cover the latest requirements and updates.
+
+Writing and Maintaining Test Scripts: A significant part of my day is dedicated to writing and maintaining automation scripts. I use tools like Selenium with Python to create and update scripts based on new features or changes in the application. I follow the Page Object Model (POM) design pattern to ensure that my code is maintainable and scalable.
+
+Executing Tests and Analyzing Results: I execute automated tests as part of the CI/CD pipeline. I monitor the test execution and analyze the results to ensure that the software is functioning as expected. If any issues arise, I investigate the root cause and work with developers to resolve them.
+
+Collaborating with Developers and Stakeholders: I frequently collaborate with developers, product managers, and other stakeholders to understand new features and requirements. I participate in design reviews and provide feedback from a testing perspective. This collaboration helps in identifying potential issues early in the development process.
+
+Bug Triage and Verification: Throughout the day, I triage newly logged bugs, prioritize them, and assign them to the appropriate developers. Once the bugs are fixed, I verify the fixes and close the bugs if they are resolved.
+
+Learning and Improving Skills: I dedicate some time each day to learning and improving my skills. This includes exploring new automation tools, reading relevant articles, and participating in training sessions or webinars. Continuous learning helps me stay updated with the latest trends and best practices in QA automation.
+
+Documentation and Reporting: I document my testing processes, create detailed bug reports, and update test plans as needed. I also prepare test summary reports to share with the team and stakeholders, providing insights into the quality of the software and any risks that need to be addressed.
+
+By maintaining a structured and proactive approach to my day-to-day activities, I ensure that I contribute effectively to the quality and reliability of the software products we deliver."
+
+3 -- how are you using agile in your project 
+In our project, we follow Agile methodologies to ensure flexibility, continuous improvement, and effective collaboration. Here’s how we use Agile principles in our day-to-day work:
+
+Sprint Planning and Execution:
+We work in two-week sprints. At the beginning of each sprint, we hold a sprint planning meeting where the team, including developers, testers, and product owners, come together to discuss and prioritize the tasks for the upcoming sprint.
+During this meeting, we break down user stories into smaller tasks, estimate the effort required using story points, and assign tasks to team members. We make sure that the tasks are well-defined and achievable within the sprint.
+
+Daily Stand-ups:
+Every day, we have a 15-minute stand-up meeting where each team member shares what they accomplished the previous day, what they plan to do today, and any blockers they are facing.
+This meeting helps keep everyone aligned and allows us to quickly address any issues that might impede progress.
+
+Collaborative Development and Testing:
+We follow a Test-Driven Development (TDD) approach where tests are written before the actual code. This ensures that testing is an integral part of the development process.
+As an automation tester, I collaborate closely with developers to create and maintain automated test scripts that are run as part of our CI/CD pipeline. We use tools like Selenium for browser automation, Jenkins for continuous integration, and JIRA for tracking user stories and bugs.
+
+Backlog Refinement:
+Throughout the sprint, we have regular backlog refinement sessions where we review and prioritize the product backlog. This helps us keep the backlog up-to-date and ensures that the most valuable features are worked on first.
+During these sessions, we also refine the acceptance criteria for user stories to ensure they are clear and testable.
+
+Sprint Reviews and Retrospectives:
+At the end of each sprint, we hold a sprint review meeting where we demo the completed work to stakeholders. This allows us to get feedback and make any necessary adjustments.
+Following the sprint review, we have a sprint retrospective meeting where the team reflects on what went well, what didn’t, and how we can improve. We discuss both technical and process-related improvements and agree on actionable items to implement in the next sprint.
+
+Continuous Integration and Continuous Delivery (CI/CD):
+We have a CI/CD pipeline in place that automatically runs our test suite whenever new code is pushed to the repository. This helps us catch issues early and ensures that our codebase is always in a deployable state.
+We also practice continuous delivery, where we aim to release new features and improvements to production as soon as they are ready, rather than waiting for a big release.
+
+Agile Mindset:
+Beyond just the processes and ceremonies, we embrace an Agile mindset by being open to change, valuing customer feedback, and continuously seeking ways to improve our processes and deliver better software.
+By following these Agile practices, we ensure that our project is adaptable to changing requirements, promotes collaboration and communication, and delivers high-quality software incrementally and iteratively."
+
+-- write test cases for login page
+
+-- sql for join and like or sorting columns or finding not null rows
+
+-- if a conflict with developer what will you do
+"In a collaborative environment, it's natural for conflicts to arise occasionally. When I encounter a conflict with a developer, I approach the situation with the goal of finding a resolution that benefits the project and maintains a positive working relationship. Here’s how I typically handle such situations:
+
+Stay Calm and Professional:
+I ensure that I remain calm and professional, even if the conflict is about a critical issue. Reacting emotionally can escalate the situation, so I focus on keeping the discussion objective and fact-based.
+
+Understand the Developer's Perspective:
+I take the time to listen to the developer’s point of view and understand their concerns. This involves actively listening and asking clarifying questions to ensure I fully grasp their perspective. Understanding the root cause of the disagreement is crucial for finding a solution.
+
+Communicate Clearly and Respectfully:
+I clearly articulate my own perspective and concerns, ensuring that I do so respectfully. I focus on the issue at hand rather than personalizing the conflict. Using "I" statements can help, such as "I noticed that the test results showed an issue with the new feature. Can we look into this together?"
+
+Find Common Ground:
+I look for common ground and shared goals. Both the developer and I want the project to succeed, so identifying mutual objectives can help us work together more effectively. For example, "We both want to ensure the product is high quality. Let’s discuss how we can address this issue."
+
+Collaborate on a Solution:
+I propose solutions and encourage the developer to share their ideas as well. Collaborative problem-solving often leads to better outcomes and helps build a stronger working relationship. For example, "How about we review the code together to identify what might be causing this issue?"
+
+Escalate If Necessary:
+If we’re unable to resolve the conflict on our own, I’m not hesitant to escalate the issue to a team lead or manager. However, I do this as a last resort and frame it as seeking additional input to find the best solution for the project, not as a way to "win" the conflict.
+
+Reflect and Learn:
+After the conflict is resolved, I take some time to reflect on what happened and how it was handled. I consider what I could do differently in the future to prevent similar conflicts. This might involve improving communication or adjusting my approach to collaboration.
+
+For example, there was a situation where a developer and I disagreed on the severity of a bug I had reported. I took the following steps:
+First, I scheduled a one-on-one meeting to discuss the issue without distractions.
+I presented the test results and explained the potential impact on the user experience.
+I listened to the developer’s concerns about the complexity and time required to fix the bug.
+Together, we brainstormed a solution that involved a temporary workaround, followed by a plan for a more permanent fix in the next sprint.
+We communicated our agreed plan to the rest of the team to ensure transparency and alignment.
+By approaching conflicts with a mindset of collaboration and mutual respect, I’ve found that we can often turn a challenging situation into an opportunity for better communication and teamwork."
+
+-- what is unit testing and different types of testing you have done
+Unit testing is a type of software testing where individual components or modules of a software application are tested in isolation from the rest of the application. The primary goal of unit testing is to validate that each unit of the software performs as expected. Here’s a more detailed explanation:
+
+Key Concepts of Unit Testing
+
+Definition of a Unit:
+A unit is the smallest testable part of an application, typically a function, method, or class.
+
+Scope:
+Unit tests focus on a single unit of code to ensure it works correctly. This involves testing the unit’s behavior under various conditions, including edge cases, normal conditions, and error conditions.
+
+Isolation:
+Unit tests are designed to run in isolation from other parts of the application. Dependencies on other units or external systems (e.g., databases, web services) are typically mocked or stubbed out to ensure the test only focuses on the unit being tested.
+
+Automation:
+Unit tests are usually automated and run frequently to catch defects early in the development process. Automated unit tests are often integrated into the build process, allowing developers to quickly identify and fix issues.
+
+Benefits of Unit Testing
+
+Early Detection of Bugs:
+Unit testing helps catch bugs early in the development cycle, making them easier and cheaper to fix.
+
+Simplifies Integration:
+By ensuring that each unit works correctly in isolation, unit testing simplifies the integration process and helps identify issues early.
+
+Documentation:
+Unit tests serve as documentation for the code, providing examples of how the unit is supposed to be used and its expected behavior.
+
+Facilitates Refactoring:
+With a comprehensive suite of unit tests, developers can refactor code with confidence, knowing that any changes that introduce bugs will be quickly detected.
+
+Improves Code Quality:
+Writing unit tests encourages developers to write more modular, maintainable, and testable code.
+def add(a, b):
+    return a + b
+import unittest
+
+class TestAddFunction(unittest.TestCase):
+    def test_add_positive_numbers(self):
+        self.assertEqual(add(1, 2), 3)
+        
+    def test_add_negative_numbers(self):
+        self.assertEqual(add(-1, -2), -3)
+        
+    def test_add_zero(self):
+        self.assertEqual(add(0, 0), 0)
+        
+    def test_add_positive_and_negative(self):
+        self.assertEqual(add(5, -3), 2)
+
+if __name__ == '__main__':
+    unittest.main()
+
+-- are you open to 100% manual testing 
+"Yes, I am open to 100% manual testing if that is what the role requires. I understand the importance of manual testing in ensuring the quality and usability of software from the end-user’s perspective. Manual testing allows for a more nuanced and thorough exploration of the application, which can uncover issues that automated tests might miss.
+
+Key Points to Include:
+
+Value of Manual Testing:
+Manual testing is crucial for validating the user experience, performing exploratory testing, and catching visual and usability issues that automated tests might overlook.
+It also allows for flexibility and adaptability in testing new features or changes that might not yet have automated tests.
+
+Experience with Manual Testing:
+I have extensive experience in manual testing, including writing and executing test cases, performing exploratory testing, and documenting defects. I am skilled at thoroughly testing applications to ensure they meet both functional and non-functional requirements.
+
+Adaptability and Flexibility:
+I am adaptable and willing to align my work with the needs of the team and project. If the role primarily involves manual testing, I am fully prepared to focus on that and contribute to ensuring the highest quality of the software.
+
+Openness to Automation:
+While I am open to 100% manual testing, I also believe in the benefits of automated testing for regression testing, improving test coverage, and speeding up the testing process. If there is an opportunity in the future to incorporate automated testing, I would be excited to contribute to that as well.
+
+Balancing Both Approaches:
+In previous roles, I have effectively balanced both manual and automated testing. This experience has given me a comprehensive understanding of how both approaches complement each other in achieving thorough and efficient testing.
+Example Scenario
+For example, in my previous role, I was responsible for manually testing new features and performing regression testing before each release. My attention to detail and thorough testing process helped identify critical issues early, ensuring high-quality releases. Although we primarily focused on manual testing, I also kept an eye on opportunities for automation to improve efficiency where possible.
+
+Conclusion
+I am fully committed to ensuring the quality of the software, whether through manual or automated testing. I understand that different projects and teams have different needs, and I am flexible and ready to contribute to the best of my ability in a 100% manual testing role."
+
+- how big is your team, do u have offshore
+
+- do you attend requirements or design sessions
+"Yes, I regularly attend requirements and design sessions as part of my role. These sessions are crucial for understanding the project scope, user expectations, and the technical aspects of the system. Here’s how my participation in these meetings contributes to the project:
+
+Key Points to Include:
+
+Understanding Requirements:
+Attending requirements sessions allows me to gain a clear understanding of what the stakeholders need and expect from the system.
+I can ask clarifying questions to ensure that the requirements are detailed and testable.
+This helps in creating accurate and comprehensive test plans and cases that align with the project goals.
+
+Providing Input from a QA Perspective:
+During these sessions, I provide input on potential risks, challenges, and testability of the requirements.
+I share insights on how certain requirements might impact the quality and performance of the system, ensuring that quality is considered from the start.
+
+Collaborating with Cross-functional Teams:
+Being part of these sessions fosters better collaboration with developers, product managers, and other stakeholders.
+It helps in building a shared understanding of the project, which is crucial for effective communication and teamwork throughout the development process.
+
+Influencing Design Decisions:
+In design sessions, I contribute by evaluating the proposed designs from a testing perspective.
+I highlight areas that might need more detailed testing or could potentially cause issues, ensuring that these are addressed early in the design phase.
+
+Early Detection of Issues:
+Early involvement in requirements and design discussions helps in identifying potential issues or ambiguities early on.
+This proactive approach reduces the likelihood of defects and misunderstandings later in the development cycle.
+
+Ensuring Traceability:
+Participating in these sessions helps me ensure that there is clear traceability between requirements, design, and testing artifacts.
+This is essential for effective test coverage and for meeting compliance and regulatory standards if applicable.
+
+Example Scenario
+For example, in my previous project, I attended the initial requirements gathering sessions where we discussed the features for a new module. By participating in these sessions, I was able to identify several potential edge cases that weren’t initially considered. This led to more detailed requirements and ultimately a more robust design. During design sessions, I collaborated with developers to ensure that the design was not only functional but also testable and maintainable.
+
+Conclusion
+By actively participating in requirements and design sessions, I ensure that quality is built into the product from the very beginning. It allows me to contribute to a shared understanding of the project goals and to develop a comprehensive testing strategy that aligns with the overall project objectives."
+
+-- what are different agile
+Scrum is a popular Agile methodology that focuses on iterative and incremental development, enabling teams to deliver high-quality software in short cycles while adapting to changing requirements. Here’s a comprehensive overview of Scrum:
+
+Key Concepts of Scrum
+Sprints:
+
+Definition: Sprints are time-boxed iterations, typically lasting 2-4 weeks, during which a potentially shippable product increment is created.
+Goal: Each Sprint aims to produce a usable and potentially releasable product increment.
+Scrum Team:
+
+Product Owner: Responsible for maximizing the value of the product and managing the Product Backlog. The Product Owner ensures that the team works on the most valuable features first.
+Scrum Master: Acts as a facilitator for the team, helping to remove impediments, ensuring Scrum practices are followed, and promoting continuous improvement.
+Development Team: A cross-functional group of professionals who are responsible for delivering the product increment. The team is self-organizing and decides how to accomplish the work within the Sprint.
+Scrum Events:
+
+Sprint Planning: A meeting where the Scrum Team collaborates to define the Sprint Goal, select items from the Product Backlog to work on, and create a plan for delivering the increment.
+Daily Scrum (Stand-up): A daily, time-boxed meeting (usually 15 minutes) where the Development Team discusses progress, plans for the day, and identifies any impediments.
+Sprint Review: Held at the end of the Sprint, this meeting involves the Scrum Team and stakeholders. The team demonstrates the completed work and discusses what was achieved, collecting feedback for future Sprints.
+Sprint Retrospective: A meeting for the Scrum Team to reflect on the Sprint, discussing what went well, what didn’t, and how processes can be improved for the next Sprint.
+Scrum Artifacts:
+
+Product Backlog: An ordered list of all desired work on the project, maintained by the Product Owner. It includes features, enhancements, bug fixes, and technical work.
+Sprint Backlog: The set of Product Backlog items selected for the Sprint, along with a plan for delivering them. It is created during Sprint Planning and is owned by the Development Team.
+Increment: The sum of all the Product Backlog items completed during a Sprint, plus the value of the increments of all previous Sprints. The increment must be in a usable condition, meeting the Scrum Team's Definition of Done.
+Definition of Done (DoD):
+
+A shared understanding of what it means for work to be complete. This typically includes criteria like passing all tests, code reviews, documentation, and meeting acceptance criteria. The DoD ensures that the increment is potentially shippable.
+Benefits of Scrum
+Flexibility and Adaptability:
+
+Scrum allows for changes in requirements, even late in development. This adaptability is crucial for responding to customer feedback and market changes.
+Continuous Improvement:
+
+The iterative nature of Scrum, along with the regular reflection in Sprint Retrospectives, promotes continuous improvement and learning within the team.
+Increased Collaboration:
+
+The Scrum framework encourages close collaboration among team members and stakeholders, enhancing communication and transparency.
+Faster Delivery of Value:
+
+By delivering increments of the product at the end of each Sprint, teams can provide value to customers more quickly and gather feedback for future iterations.
+Higher Quality:
+
+The focus on creating potentially shippable increments and the regular inspection and adaptation cycle helps ensure high-quality outcomes.
+Example of Scrum in Practice
+Imagine a team developing a new feature for a mobile application. Here’s how Scrum would be applied:
+
+Sprint Planning:
+
+The Product Owner presents the highest-priority items from the Product Backlog. The team discusses and selects the items they can commit to delivering in the upcoming Sprint.
+The team creates a Sprint Goal and plans how to achieve it.
+Daily Scrum:
+
+Each day, team members briefly discuss what they did yesterday, what they plan to do today, and any obstacles in their way.
+Sprint Review:
+
+At the end of the Sprint, the team demonstrates the new feature to stakeholders. Feedback is collected to inform future Sprints.
+Sprint Retrospective:
+
+The team reflects on the Sprint, discussing what went well and what could be improved. They agree on actionable steps to enhance their process for the next Sprint.
+Increment:
+
+The team delivers a working, potentially shippable version of the new feature, which meets the Definition of Done.
+By following these practices, the team ensures continuous delivery of value, adaptability to change, and ongoing improvement in their processes and product quality.
